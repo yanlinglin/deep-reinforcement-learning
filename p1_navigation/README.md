@@ -22,6 +22,11 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 ### Getting Started
 
+0. clone the repository https://github.com/udacity/deep-reinforcement-learning and follow the instruction in its readme. 
+    - create a new environment
+    - navigate to the python/ folder, use pip install . to install necessary dependencies. 
+    - when using Anaconda navigator, choose "drlnd" as channels, then laungch Jupyternotebook from there. In the Jupyter notebook, I find it is unnecessary to change kernal. 
+
 1. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
     - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
     - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
@@ -37,6 +42,13 @@ The task is episodic, and in order to solve the environment, your agent must get
 ### Instructions
 
 Follow the instructions in `Navigation.ipynb` to get started with training your own agent!  
+
+    - `Navigation_main.ipynb` to is the main code to train the agent. 
+    - 'baseline_model.py' gives the DQN network defined by Pytorch.
+    - '- baseline_dqn_agent.py' is the fixed DQN agent. 
+    - 'double_Q_agent_base_C_base_replay.py' is the Double DQN agent. 
+    - 'double_Q_agent_base_C_prio_replay.py' is the Double DQN with prioritized replay agent. 
+
 
 ### (Optional) Challenge: Learning from Pixels
 
